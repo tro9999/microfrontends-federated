@@ -20,18 +20,19 @@ function Layout({ setApp2, setApp3 }) {
   const remoteEntry3 = `${distributionId}/mfe-app3/dist/remoteEntry.js`;
 
   function setApp2() {
+    /*
     setSystem({
       remote: "app2",
       url: "https://cdn.jsdelivr.net/gh/tro9999/module-federation-examples/dynamic-system-host/app2/dist/remoteEntry.js",
       module: "./Widget",
     });
-    /*
+    */
+
     setSystem({
       url: remoteEntry2,
       remote: "mfeApp2",
       module: "./App",
     });
-    */
   }
 
   function setApp3() {
