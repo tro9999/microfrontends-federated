@@ -15,6 +15,7 @@ module.exports = merge(common, {
       PRODUCTION: JSON.stringify(true),
     }),
   ],
+  /*
   optimization: {
     minimize: true,
     minimizer: [
@@ -23,4 +24,5 @@ module.exports = merge(common, {
       }),
     ],
   },
+  */
 });
